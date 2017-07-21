@@ -2,9 +2,120 @@
     <div class="menu_section">
         <h3>Menu</h3>
         <ul class="nav side-menu">
+            <li>
+                <a><i class="fa fa-dashboard"></i> หน้าแรก </a>
+            </li>
+            <li>
+                <a><i class="fa fa-money"></i> งานขาย <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li>
+                        <a href="#">เสนอราคา</a>
+                    </li>
+                    <li>
+                        <a href="#">เปิดการขาย</a>
+                    </li>
+                    <li>
+                        <a href="#">อนุมัติการขาย</a>
+                    </li>
+                    <li>
+                        <a href="#">ออกใบแจ้งหนี้</a>
+                    </li>
+                    <li><a>รายงาน<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li class="sub_menu">
+                                <a href="#">รายงานสรุปขายขาย</a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">รายงานสรุปขายขายรายพนักงาน</a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">รายงานสรุปขายขายรายร้าน</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a><i class="fa fa-cubes"></i> คลังสินค้า <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li>
+                        <a href="#">รับสินค้าเข้า</a>
+                    </li>
+                    <li>
+                        <a href="#">เบิกสินค้าออกจำหน่าย</a>
+                    </li>
+                    <li>
+                        <a href="#">เบิกสินค้าออกเปลี่ยนคลัง</a></li>
+                    <li><a>รายงาน<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li class="sub_menu">
+                                <a href="#">รายงานการรับสินค้าเข้า</a>
+                            </li>
+                            <li>
+                                <a href="#">รายงานการเบิกสินค้าออก</a>
+                            </li>
+                            <li>
+                                <a href="#">รายงานสินค้าคงคลัง</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a><i class="fa fa-calculator"></i> บัญชี <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li>
+                        <a href="#">วางบิล</a>
+                    </li>
+                    <li>
+                        <a href="#">ตัดชำระหนี้</a>
+                    </li>
+                    <li>
+                        <a href="#">ลูกหนี้คงค้าง</a>
+                    </li>
+                    <li>
+                        <a href="#">อนุมัติการขาย</a>
+                    </li>
+                    <li>
+                        <a href="#">คืนสินค้า</a></li>
+                    <li><a>รายงาน<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li class="sub_menu">
+                                <a href="#">รายงานสรุปขายขาย</a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">รายงานสรุปขายขายรายพนักงาน</a>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">รายงานสรุปขายขายรายร้าน</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a><i class="fa fa-group"></i> ลุกค้า </a>
+            </li>
+            <li>
+                <a><i class="fa fa-gift"></i> สินค้า <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                <li><a href="#">ข้อมูลสินค้า</a></li>
+                <li><a href="#">ข้อมูลสหน่วยสินค้า</a></li>
+                <li><a href="#">ข้อมูลกลุ่มสินค้า</a></li>
+                </ul>
+            </li>
+            <li>
+                <a><i class="fa fa-book"></i> รายงาน </a>
+            </li>            
+            <li><a><i class="fa fa-cogs"></i> การตั้งค่า <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                <li><a href="#">ข้อมูลพนักงาน</a></li>
+                <li><a href="#">ข้อมูลผู้จัดจำหน่าย</a></li>
+                <li><a href="#">ข้อมูลคลังสินค้า</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
-    <div class="menu_section">
+    <!-- <div class="menu_section">
         <h3>General</h3>
         <ul class="nav side-menu">
         <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
@@ -59,7 +170,7 @@
             </ul>
         </li>
         </ul>
-    </div>
+    </div> -->
     <!-- <div class="menu_section">
         <h3>Live On</h3>
         <ul class="nav side-menu">

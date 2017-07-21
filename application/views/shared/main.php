@@ -26,7 +26,7 @@
                 <!-- /sidebar menu -->
 
                 <!-- /menu footer buttons -->
-                <!-- <?php $this->load->view('/shared/menu_footer');?> -->
+                 <!-- <?php $this->load->view('/shared/menu_footer');?>  -->
                 <!-- /menu footer buttons -->
             </div>
             </div>
